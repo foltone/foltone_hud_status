@@ -1,4 +1,4 @@
-# foltone_template
+# foltone_hud_status
 
 ## Description | FR
 Voici un  petit hud status.
