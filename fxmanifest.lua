@@ -19,5 +19,6 @@ files {
 
 dependencies {
 	'es_extended',
-	'esx_status'
+	'esx_status',
+    'esx_basic_needs'
 }

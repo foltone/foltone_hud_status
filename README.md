@@ -10,6 +10,10 @@ Here's a little hud status.
 - Health/Armor
 - Hunger/Thirst
 
+### Require
+- esx_status
+- esx_basic_needs
+
 ### Preview
 ![image](https://user-images.githubusercontent.com/77021937/186500939-5513982a-0168-476d-9743-f4848202636e.png)
 
