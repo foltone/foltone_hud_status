@@ -1,12 +1,12 @@
 # foltone_hud_status
 
 ## Description | FR
-Voici un  petit hud status.
+Voici un  petit hud status pour esx.
 - Santé/Armure
 - Faim/Soif
 
 ## Description | EN
-Here's a little hud status.
+Here's a little hud status for esx.
 - Health/Armor
 - Hunger/Thirst
 
