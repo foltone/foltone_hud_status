@@ -8,7 +8,7 @@ $(function () {
     }
     display(true)
     window.addEventListener('message', function(event) {
-        if (event.data.type === "ui") {
+        if (event.data.type === "hud") {
             if (event.data.status == true) {
                 display(true)
             }
@@ -17,10 +17,10 @@ $(function () {
             }
         }
         else if (event.data.type === "update") {
-            document.getElementById("health").style.width = event.data.health + "%";
-            document.getElementById("armor").style.width = event.data.armor + "%";
-            document.getElementById("hunger").style.width = event.data.food + "%";
-            document.getElementById("thirst").style.width = event.data.water + "%";
+            document.getElementById("health").style.height = event.data.health + "%";
+            document.getElementById("armor").style.height = event.data.armor + "%";
+            document.getElementById("hunger").style.height = event.data.food + "%";
+            document.getElementById("thirst").style.height = event.data.water + "%";
         }
     }) 
 })

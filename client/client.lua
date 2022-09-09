@@ -11,7 +11,6 @@ Citizen.CreateThread(function()
     ESX.PlayerData = ESX.GetPlayerData()
 end)
 
-local pauseMenu = false
 local health = 100
 local armor = 0
 local food = 0
@@ -19,14 +18,14 @@ local water = 0
 
 function open()
     SendNUIMessage({
-        type = "ui",
+        type = "hud",
         status = true,
     })
 end
 
 function close()
     SendNUIMessage({
-        type = "ui",
+        type = "hud",
         status = false,
     })
 end
